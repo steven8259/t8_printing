@@ -1,0 +1,51 @@
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th {
+            padding: 6px;
+        }
+        tbody {
+            border-top: 1px #444 solid;
+            border-bottom: 1px #444 solid;
+        }
+        .text-end {
+          text-align: end;  
+        }
+        td {
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        body {
+            margin-left: 30px;
+            margin-right: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .wrapper {
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>{{OrderName}}</h1>
+        
+        <div style="margin-top: 3rem">
+            ProductName: {{ ProductName }}<br />
+            Topping: {{Topping}}<br />
+            Size: {{Size}}<br />
+            Dairy: {{Dairy}}<br />
+            TeaBase: {{TeaBase}}<br />
+            Sugar: {{Sugar}}<br />
+            Ice: {{Ice}}<br />
+            Qty: {{Picker}}<br />
+        </div>
+
+    </div>
+</body>
+</html>
